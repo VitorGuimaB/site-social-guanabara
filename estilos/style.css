@@ -41,8 +41,10 @@ iframe#tela{
     position: relative;
     top: 79px;
     left: 22px;
-    width: 265px;
-    height: 471px;
+    width: 268px;
+    height: 472px;
+    border: none;
+    
 }
 
 img {
@@ -52,6 +54,7 @@ img {
     margin: 10px;
     box-sizing: border-box;
     transition: 0.5s;
+    
 
     /*
     A CONFIG "box-sizing: border-box;" FAZ COM QUE A BORDA AO REDOR FAÇA PARTE DO MEU ELEMENTO.
