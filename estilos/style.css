@@ -30,25 +30,44 @@ section#tel{
     
     width: 311px;
     height: 627px;
-    background: url(../imagens/frame-iphone.png);
-    
+    background: url(../imagens/frame-iphone.png); 
 }
 
-/*iframe{
-    margin: -400px;
-    width: 400px;
-    height: 706px;
+section#redes{
+    text-align: right;
 }
-    div{
-    display: inline-block;
-    max-height:300px;
+
+iframe#tela{
+    position: relative;
+    top: 79px;
+    left: 22px;
+    width: 265px;
+    height: 471px;
 }
-*/
-/*
-img{
-    margin: auto;
-    position: center center;
-    display: inline-block;
+
+img {
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    /*
+    A CONFIG "box-sizing: border-box;" FAZ COM QUE A BORDA AO REDOR FAÇA PARTE DO MEU ELEMENTO.
+
+    QUANDO UTILIZO O PSEUDOELEMENTO HOVER, PORTANTO, A BORDA QUE APARECE FAZ PARTE DO MEU ELEMENTO
+    */
 }
-*/
- /**/
+
+img:hover{
+    border: 2px rgba(255, 255, 255, 0.6)
+     solid;
+     transition: 0.5s, border 0.5s;
+
+    /*CONSIGO FAZER UM TRANSITION PRA BORDER CASO EU ESPECIFÍQUE*/
+
+     transform: translate(-2px,-2px);
+     height: 60px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
